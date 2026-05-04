@@ -1,4 +1,6 @@
-# CVE-2026-31431 ("Copy Fail") Toolkit
+# CVE-2026-31431 ("Copy Fail") Toolkit Walkthrough
+
+This code will walk you through and explain what is happening throughout the exploit of CVE-2026-31431, I have added explainer sections to the code prodocued by rootsecdev
 
 Detector and proof-of-concept LPE for the Linux `algif_aead` /
 `authencesn` page-cache scratch-write bug disclosed 2026-04-29.
@@ -36,9 +38,6 @@ predates that range.
 
 ## Files
 
-| File | Purpose |
-| --- | --- |
-| `test_cve_2026_31431.py` | Non-destructive detector. Operates on a sentinel file in a temp dir; never touches system binaries. |
 | `exploit_cve_2026_31431.py` | LPE. Flips the running user's UID to 0 in `/etc/passwd`'s page cache, then invokes `su` for a root shell. |
 
 Both scripts are pure Python 3.10+ stdlib.
