@@ -1,6 +1,6 @@
 # CVE-2026-31431 ("Copy Fail") Toolkit Walkthrough
 
-This code will walk you through and explain what is happening throughout the exploit of CVE-2026-31431, I have added explainer sections to the code prodocued by rootsecdev
+This code will walk you through and explain what is happening throughout the exploit of CVE-2026-31431, I have added explainer sections to the code produced by rootsecdev
 
 Detector and proof-of-concept LPE for the Linux `algif_aead` /
 `authencesn` page-cache scratch-write bug disclosed 2026-04-29.
