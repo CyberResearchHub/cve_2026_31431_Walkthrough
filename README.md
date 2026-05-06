@@ -2,8 +2,14 @@
 
 This code will walk you through and explain what is happening throughout the exploit of CVE-2026-31431, I have added explainer sections to the code produced by rootsecdev
 
+Here is a video which you can follow along to:
+
+https://www.youtube.com/watch?v=rC2fSov0nU4
+
 Detector and proof-of-concept LPE for the Linux `algif_aead` /
 `authencesn` page-cache scratch-write bug disclosed 2026-04-29.
+
+
 
 Disclosure writeup: <https://xint.io/blog/copy-fail-linux-distributions>
 
