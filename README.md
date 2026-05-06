@@ -2,7 +2,7 @@
 
 This code will walk you through and explain what is happening throughout the exploit of CVE-2026-31431, I have added explainer sections to the code produced by rootsecdev
 
-Here is a video which you can follow along to:
+Here is a video which you can help you visualize some of the pieces we can't see via memory:
 
 https://www.youtube.com/watch?v=rC2fSov0nU4
 
